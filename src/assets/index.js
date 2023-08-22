@@ -40,6 +40,11 @@ import tensorflow from "./tensorflow.png"
 import react from "./react.png"
 import tailwind from "./tailwind.png"
 import andreas from "./andreas.jpg"
+import aau from "./aau.png"
+import herningsholm from "./herningsholm.png"
+import headset from "./headsetpng.png"
+import sitetech from "./site-tech.png"
+import power from "./power.png"
 
 export {
   airbnb,
@@ -83,5 +88,10 @@ export {
   tensorflow,
   react,
   tailwind,
-  andreas
+  andreas,
+  aau,
+  herningsholm,
+  headset,
+  sitetech,
+  power
 };

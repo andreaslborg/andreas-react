@@ -12,7 +12,7 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
   python,
   tensorflow,
   tailwind,
-  react  } from "../assets";
+  react, aau, herningsholm, headset, sitetech, power } from "../assets";
 
 export const navLinks = [
   {
@@ -20,15 +20,15 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "degree",
-    title: "Education",
-  },
-  {
-    id: "projects",
+    id: "#projects",
     title: "Projects",
   },
   {
-    id: "Contact",
+    id: "#degree",
+    title: "Education",
+  },
+  {
+    id: "#contact",
     title: "Contact",
   },
 ];
@@ -36,26 +36,84 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Rewards",
+    icon: tensorflow,
+    title: "Bachelor",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "My bachelor project consisted of a machine learning program using EEG signals.",
+    link: "https://github.com/andreaslborg/p6-movedetect"
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    icon: react,
+    title: "This Website",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "I built this portfolio website using React, Vite and Tailwind CSS. See the code on my GitHub.",
+    link: "https://github.com/andreaslborg/andreas-react"
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    icon: python,
+    title: "Oticon Audio Explorer",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "View my submission for the Oticon Audio Explorer Challenge 2023 on my GitHub.",
+    link: "https://github.com/andreaslborg/OticonChallenge2023"
   },
 ];
+
+export const education = [
+  {
+    id: "education-1",
+    icon: aau,
+    title: "Bachelor in Software",
+    content:
+      "2020 - 2023 | Aalborg University",
+    link: "https://www.aau.dk/uddannelser/bachelor/software"
+  },
+  {
+    id: "education-2",
+    icon: aau,
+    title: "Electronic and IT courses",
+    content:
+      "2018 - 2019 | Aalborg University",
+    link: "https://www.aau.dk/uddannelser/bachelor/elektronik-og-systemdesign"
+  },
+  {
+    id: "education-3",
+    icon: herningsholm,
+    title: "Higher Technical exam in IT Science",
+    content:
+      "2015 - 2018 | Herningsholm Gymnasium",
+    link: "https://www.herningsholm.dk/"
+  },
+];
+
+export const work = [
+  {
+    id: "work-1",
+    icon: headset,
+    title: "Esport Commentator & Producer",
+    content:
+      "2016 - Now | Freelance",
+    link: ""
+  },
+  {
+    id: "work-2",
+    icon: sitetech,
+    title: "Web Developer",
+    content:
+      "2021 | Site-Tech",
+    link: "https://site-tech.dk/"
+  },
+  {
+    id: "work-3",
+    icon: power,
+    title: "Department Manager",
+    content:
+      "2019 | POWER A/S Herning",
+    link: "https://www.power.dk/butik/power-herningcentret/s-3815/"
+  },
+];
+
 
 export const feedback = [
   {

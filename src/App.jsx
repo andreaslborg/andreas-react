@@ -1,5 +1,5 @@
 import styles from './style';
-import { Button, Contact, Degree, Footer, Hero, Navbar, Projects, Testimonials, Work } from './components';
+import { Button, Contact, Languages, Footer, Hero, Navbar, Projects, Testimonials, Work, Uni } from './components';
 
 /* 
 Navbar
@@ -29,12 +29,13 @@ const App = () => (
 
     <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        <Degree />
+        <Languages />
         <Projects />
+        <Uni />
         <Testimonials />
         <Work />
         <Contact />
-        <Footer />
+        
       </div>
     </div>
 
