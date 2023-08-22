@@ -29,6 +29,7 @@ jobs:
         with:
           branch: gh-pages
           folder: dist
-          token: ${{ secrets.andreas-react }}  # Use the name of the secret you created
+          token: ${{ secrets.andreas-react }}  # Use the name of the secret you created (andreas-react)
           clean: true
+
 
