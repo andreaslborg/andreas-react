@@ -27,5 +27,8 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
-          branch: gh-pages  # Deploy to the 'gh-pages' branch
+          branch: gh-pages
           folder: dist
+          token: ${{ secrets.andreas-react }}  # Use the name of the secret you created
+          clean: true
+
