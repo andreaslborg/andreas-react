@@ -35,7 +35,6 @@ import html from "./html.png"
 import java from "./java.png"
 import js from "./js.png"
 import node from "./node.png"
-import postgres from "./postgresql.png"
 import python from "./python.png"
 import tensorflow from "./tensorflow.png"
 import react from "./react.png"
@@ -80,7 +79,6 @@ export {
   java,
   js,
   node,
-  postgres,
   python,
   tensorflow,
   react,
